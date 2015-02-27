@@ -1,0 +1,12 @@
+######## DAD - ENVIRONMENTS SUPPORT LISTING #########
+
+default:
+    :url: https://dad.qa.foxesprit.com/
+QA:
+    :url: https://dad.qa.foxesprit.com/
+Integ:
+    :url: https://dad.integ.foxesprit.com/
+Prod:
+    :url: https://dad.foxesprit.com/
+
+###################################################

@@ -1,0 +1,23 @@
+
+######## ADMIN USERS #########
+ADMIN: "AhmedD"
+ADMIN_PASSWORD: ".."
+
+ADMIN2: ""
+ADMIN2_PASSWORD: ""
+##############################
+
+
+###### NONE-ADMIN USERS ######
+NONE_ADMIN_USER: ""
+NONE_ADMIN_PASSWORD: ""
+
+NONE_ADMIN_USER: ""
+NONE_ADMIN_PASSWORD: ""
+##############################
+
+
+###### NONE-ADMIN USERS ######
+VIEW_ONLY_USER: ""
+VIEW_ONLY_PASSWORD: ""
+##############################

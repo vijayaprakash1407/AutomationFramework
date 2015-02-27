@@ -1,0 +1,9 @@
+######## BROWSER SUPPORT LISTING #########
+
+default: BROWSER=chrome
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+ie: BROWSER=ie
+safari: BROWSER=safari
+
+##########################################
