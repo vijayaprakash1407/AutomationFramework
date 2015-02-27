@@ -1,10 +1,13 @@
 require 'rspec'
 require 'watir-webdriver'
-require 'yaml'
 require_relative '../test_data/pagesURL'
 
-########## LOAD/SETUP CONFIGS #########
+############### DEFAULT ENV #################
+### DEFAULT = TEST_ENV:QA BROWSER:chrome ####
 ENV['TEST_ENV'] ||= 'default'.downcase
+ENV['BROWSER'] ||= 'default'.downcase
+
+########## LOAD/SETUP CONFIGS #########
 USERS = YAML.load_file("features/test_data/users.yml")
 $BROWSER = YAML.load_file("features/support/config/browsers.yml")
 $BASE_URL = YAML.load_file("features/support/config/environments.yml")[ENV['TEST_ENV']][:url]

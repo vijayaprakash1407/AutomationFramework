@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="QA Targeted - Search" type="CucumberRunConfigurationType" factoryName="Cucumber" folderName="DAD QA - Targeted Test">
+  <configuration default="false" name="QA Targeted - Search" type="CucumberRunConfigurationType" factoryName="Cucumber" folderName="DAD - Targeted Test - QA">
     <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
     <module name="cuctest" />
     <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -9,6 +9,7 @@
     <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
     <envs>
       <env name="TEST_ENV" value="QA" />
+      <env name="BROWSER" value="default" />
     </envs>
     <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
     <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
