@@ -1,4 +1,4 @@
-require 'watir-webdriver'
+require_relative '../support/env'
 
 class ManifestPage
   include WatirHelper
@@ -8,7 +8,7 @@ class ManifestPage
   end
 
   def go_to_manifest_page
-    visit_page $QAManifestPage
+    visit_page($BASE_URL+$MANIFEST_URL)
   end
 
   def search_text_box

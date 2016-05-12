@@ -8,7 +8,7 @@ class HomePage
     @browser = browser
   end
 
-  ###### Goes to DAD Homepage ######
+  ###### Goes to Homepage ######
   def go_to_home_page
     visit_page($BASE_URL)
   end
